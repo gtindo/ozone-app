@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.projetz">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.MODIFY_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ChooseOperatorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".MainService" />
+
+        <receiver
+            android:name=".BroadcastReceiverOnboot"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".view.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".view.History"
+            android:label="@string/history"
+            android:parentActivityName=".view.Main2Activity">
+
+
+        </activity>
+        <activity
+            android:name=".view.Settings"
+            android:label="@string/setting"
+            android:parentActivityName=".view.Main2Activity" >
+
+        </activity>
+        <activity
+            android:name=".view.SimConfigure"
+            android:label="@string/changeoperator"
+            android:parentActivityName=".view.Settings" />
+        <activity
+            android:name=".view.NotificationSet"
+            android:label="@string/notificate"
+            android:parentActivityName=".view.Settings" />
+        <activity
+            android:name=".view.HelpSet"
+            android:label="@string/help"
+            android:parentActivityName=".view.Settings" />
+        <activity
+            android:name=".view.AboutApp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.ContactUs"
+            android:label="@string/contactus"
+            android:parentActivityName=".view.Settings" />
+
+    </application>
+
+</manifest>

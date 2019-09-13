@@ -1,0 +1,157 @@
+<resources>
+    <string name="recycler1"> daylist</string>
+    <string name="recycler2"> weeklist</string>
+    <string name="recycler3"> monthlist</string>
+    <string name="app_name">OZone</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="subs"> +</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="waitingmessage1"> Wait a while please..</string>
+    <string name="operator">Phone Operator </string>
+    <string name="waitingmessage2">last stage before begining</string>
+    <string name="nextbutton">NEXT</string>
+    <string name="firstsimoperator">Operator SIM1</string>
+    <string name="secondsimoperator">Operator SIM2</string>
+    <string name="defaultsimoperator">Default SIM operator</string>
+    <string name="menu1">In progress</string>
+    <string name="menu2">Day </string>
+    <string name="menu3">Week</string>
+    <string name="menu4">Month</string>
+    <string name="datareceive">Data received</string>
+    <string name="datasend">Data sent</string>
+    <string name="validity">Validity</string>
+    <string name="unsubscribemessage">You have not subscribed to a plan. \n To do so \n Click on the icon</string>
+    <string name="changesimcard">Change SIM card</string>
+    <string name="history">History</string>
+    <string name="setting">setting</string>
+    <string name="search">Search...</string>
+    <string name="daymark">D</string>
+    <string name="weekmark">W</string>
+    <string name="monthmark">M</string>
+    <string name="plandetails"> Plan details</string>
+    <string name="datavolume">Data volume :</string>
+    <string name="duration">Validity Period :</string>
+    <string name="cost">cost :</string>
+    <string name="cancel">cancel</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="simconfigure"> SIM Configure</string>
+    <string name="notificate">Notification</string>
+    <string name="help">Help</string>
+    <string name="aboutapp">About app </string>
+    <string name="confirm">Confirm</string>
+    <string name="notificationtones">Notification tones</string>
+    <string name="vibration">Vibration</string>
+    <string name="popupnotify">Pop-up notification</string>
+    <string name="indicatorlight">Indicator light</string>
+    <string name="defolt">Default</string>
+    <string name="askanswer">Ask-answer</string>
+    <string name="contactus">Contact us</string>
+    <string name="confidentiality">Confidentiality</string>
+    <string name="allrightreserved">All rights reserved</string>
+    <string name="yourmessage">Your message</string>
+    <string name="addjoinfile">Add joined file</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="choose_operator_first_text">A small step before starting !</string>
+    <string name="choose_operator_second_text">Choose your default operator :</string>
+    <string name="any_subscription">You have not subscribed to any internet package.</string>
+    <string name="valueRestante">remaining data :</string>
+    <string name="valueExpiration">expiration date :</string>
+    <string name="valueUtilise">data used :</string>
+    <string name="messageBox">This operation will automatically suppress the last plan subscribed on app make sure you want do this operation </string>
+    <string name="deleteSubscription">Do you really want to cancel this subscription? You will no longer be able to track your consumption.</string>
+    <string name="addSubscription">Have you subscribed ?</string>
+    <string name="cancelNotif">Cancel the subscription</string>
+    <string name="cancelNotifMessage">You canceled the subscription to internet package : </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="goToCancelBefore">Please cancel the current subscription before subscribing again.</string>
+    <string name="stateOfConsumption">State of consumption</string>
+    <string name="state50">You are at 50% consumption</string>
+    <string name="state80">You are at 80% consumption</string>
+    <string name="waitFeature">feature unavailable at this time.</string>
+    <string name="subscriptionEndNotif">Package expiration</string>
+    <string name="subscriptionEndNotifMessage">Your package has expired</string>
+    <string name="subscriptionNotif">Subscription to the package</string>
+    <string name="subscriptionNotifMessage">You have subscribed to the package :</string>
+    <string name="changeoperator"> Change operator</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
